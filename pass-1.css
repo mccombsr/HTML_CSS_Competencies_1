@@ -4,7 +4,7 @@ body {
 
 .header{
     width: 100vw;
-    height: 30px;
+    height: 45px;
     background-color: darkcyan;
     position: fixed;
 }
@@ -56,7 +56,7 @@ body {
 #displayFlex-1{
     background-image: url("http://dtlon6z3v1kfl.cloudfront.net/wp-content/uploads/2017/07/20211559/chuck-norris-cforce.png");
     background-size: cover;
-    opacity: 0.75;
+    /* opacity: 0.75; */
     position: absolute;
     margin: 15px;
     width: 400px;
@@ -150,4 +150,26 @@ img{
     background-color: hotpink;
     margin: 10px;
     padding: 10px;
+}
+
+article{
+    margin: 50px 10px;
+}
+
+article > h1 {
+    margin-bottom: 5px;
+    color: blue;
+}
+
+section{
+    margin: 50px 10px; 
+}
+
+section > h1{
+    margin-bottom: 1em;
+    color: peru;
+}
+
+.superSecret {
+    margin: 2em 0em;
 }
