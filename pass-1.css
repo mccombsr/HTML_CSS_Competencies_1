@@ -1,0 +1,153 @@
+body {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.header{
+    width: 100vw;
+    height: 30px;
+    background-color: darkcyan;
+    position: fixed;
+}
+
+.boxModel-1{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    }
+
+.boxModel-2{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 50px;
+    border: 2px solid pink;
+    box-sizing: border-box;
+    position: relative;
+    left: 150px;
+}
+
+.floatDisplay-1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    float: right;
+}
+
+.floatDisplay-2{
+    color: #ff0453;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+.displayBlock{
+    height: 100px;
+    background-color: burlywood;
+}
+
+#displayFlex-1{
+    background-image: url("http://dtlon6z3v1kfl.cloudfront.net/wp-content/uploads/2017/07/20211559/chuck-norris-cforce.png");
+    background-size: cover;
+    opacity: 0.75;
+    position: absolute;
+    margin: 15px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#displayFlex-1 > p {
+    position: absolute;
+    align-self: flex-start;
+}
+
+#displayFlex-2{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted blue;
+    position: relative;
+    left: 385px; 
+}
+
+.wrapped{
+    width: 50%;
+    height: 10%;
+    margin: 3px;
+    background-color: pink;
+}
+
+
+
+.flexie-1{
+    background-color: rgba(238, 130, 238, 0.472);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexie-2{
+    align-self: flex-end;
+    background-color: rgba(137, 43, 226, 0.39);
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div h2{
+    width: 100px;
+    height: 150px;
+    background-color: pink;
+    margin: 4em;
+}
+
+h2+h3{
+    width: 150px;
+    height: 150px;
+    color: red;
+    background-color: chartreuse;
+    background-image: url("https://cdn.bulbagarden.net/upload/thumb/a/a3/311Plusle.png/1200px-311Plusle.png");
+    background-size: cover;
+}
+
+img{
+    margin: 10px;
+}
+
+.spanner {
+    color: blue;
+}
+
+.spanner > span {
+    color: red;
+}
+
+.list{
+    background-color: hotpink;
+    margin: 10px;
+    padding: 10px;
+}
